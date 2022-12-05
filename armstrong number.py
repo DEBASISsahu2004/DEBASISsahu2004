@@ -1,9 +1,9 @@
 num = int(input("ENter number : "))
 string = str(num)
-length = len(b)
+length = len(string)
 sum = 0
 for x in string:
-    sum += x**length
+    sum += int(x)**length
 if ( sum == num ):
     print(num,"is a armstrong number.")
 else:
